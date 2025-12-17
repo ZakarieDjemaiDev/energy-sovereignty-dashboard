@@ -84,3 +84,23 @@ footer {
     font-size: 0.9rem;
     color: var(--color-secondary);
 }
+/* ============================
+   NAVIGATION
+   ============================ */
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: var(--spacing);
+    margin-top: var(--spacing);
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--color-accent);
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}

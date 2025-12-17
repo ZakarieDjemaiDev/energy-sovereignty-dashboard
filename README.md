@@ -58,3 +58,14 @@ Chaque évolution fera l’objet de commits clairs et documentés.
 - Visualisation simple (graphiques, indicateurs)
 - Amélioration du responsive design
 - Travail sur l’accessibilité (ARIA, contrastes)
+---
+
+## 📌 Version actuelle
+**V1 – HTML/CSS**
+
+Cette première version pose les bases du projet :
+- structure HTML sémantique
+- styles CSS globaux
+- contenu pédagogique
+
+Les évolutions futures se feront dans ce même dépôt.
