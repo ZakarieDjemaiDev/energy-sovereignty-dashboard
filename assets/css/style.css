@@ -45,7 +45,7 @@ body {
    STRUCTURE PRINCIPALE
    ============================ */
 
-header,
+
 main,
 footer {
     max-width: var(--max-width);
@@ -100,9 +100,6 @@ nav a {
     font-weight: 500;
 }
 
-nav a:hover {
-    text-decoration: underline;
-}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -113,13 +110,7 @@ nav a:hover {
     white-space: nowrap;
     border: 0;
 }
-section {
-    margin-bottom: calc(var(--spacing) * 3);
-  background-color: #fff;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-}
+
 nav a:hover {
   text-decoration: underline;
 }
@@ -132,6 +123,7 @@ h2 {
 }
 header {
      background-color:var(--color-header) ;
+     padding: calc(var(--spacing) * 2);
 }
 .section-grid {
     display: grid;
@@ -143,4 +135,10 @@ header {
     .section-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+}
+.section-card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
